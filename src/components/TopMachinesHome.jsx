@@ -69,22 +69,22 @@ const TopMachinesHome = () => {
           )
         )}
       </Swiper>
+{images.map(({ route, title }, index) => {
+  if (activeIndex === index) {
+    return (
+      <div className="m-2 text-center" key={index}>
+        <p className="text-black font-bold py-1 text-2xl">{title}</p>
+        <HashLink smooth to={route}>
+          <button className="inline-block p-2 m-2 bg-red-600 w-[150px] font-bold text-xs">
+            {title}
+          </button>
+        </HashLink>
+      </div>
+    );
+  }
 
-      {images.map(({ route, title }, index) => {
-        if (activeIndex === index) {
-          return (
-            <div className="m-2 text-center" key={index}>
-              <p className="text-black font-bold py-1 text-2xl">{title}</p>
-              <HashLink smooth to={route}>
-                <button className="inline-block p-2 m-2 bg-red-600 w-[150px] font-bold text-xs uppercase leading-normal text-white">
-                  {title}
-                </button>
-              </HashLink>
-            </div>
-          );
-        }
-        return null
-      })}
+  return null;
+})}
     </section>
   );
 };
