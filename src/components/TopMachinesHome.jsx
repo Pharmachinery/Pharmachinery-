@@ -74,6 +74,7 @@ const TopMachinesHome = () => {
     return (
       <div className="m-2 text-center" key={index}>
         <p className="text-black font-bold py-1 text-2xl">{title}</p>
+
         <HashLink smooth to={route}>
           <button className="inline-block p-2 m-2 bg-red-600 w-[150px] font-bold text-xs">
             {title}
