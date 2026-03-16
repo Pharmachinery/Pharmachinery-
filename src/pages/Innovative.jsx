@@ -5,7 +5,7 @@ import Machine from '../components/Machine';
 import InnovativeContact from '../components/InnovativeContact';
 import unidose from "../assets/innova.png";
 import { Helmet } from 'react-helmet-async';
-import { bov1, bov2, bov3, odf1, odf2, odf3, odf4, odf6} from '../assets';
+import { bov1, odf6} from '../assets';
 import { licaps  } from '../assets';
 import hpl from "../assets/hpl.jpg";
 import { v4 as uuidv4 } from 'uuid';
