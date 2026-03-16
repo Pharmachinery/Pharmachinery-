@@ -9,7 +9,7 @@ import { bov1, odf6} from '../assets';
 import { licaps  } from '../assets';
 import hpl from "../assets/hpl.jpg";
 import { v4 as uuidv4 } from 'uuid';
-const Innovative = () => {s
+const Innovative = () => {
   const MachinesData = [
     
     {
@@ -19,7 +19,7 @@ const Innovative = () => {s
       id: "odf",
       video:
       "https://www.youtube.com/embed/KFMoL4E3ZaM?si=1Omg4KhzE0_bD18F",
-      description:"The working principle of the machine has evenly coated a layer of liquid material on the surface of the reel base roll. The solvent (moisture) is rapidly evaporated and dried through the drying channel. And winding up after cooling (or composite with another material). Then, get the final products of the film (composite film) KFM-230 Automatic Oral thin film Packaging machine cutting and crosscutting inter across the integration, the material can be precisely divided into a single sheet-like products, and then use the sucker to accurately locate and move the material to the packaging film, laminated, heat sealing, punching, the final output Packaging complete product, to achieve the integration of the product line packaging.",
+      description:"The working principle of the machine has evenly coated a layer of liquid material on the surface of the reel base roll. The solvent (moisture) is rapidly evaporated and dried through the drying channel. And winding up after cooling (or composite with another material). Then, get the final products of the film (composite film) KFM-230 Automatic Oral_thin film Packaging machine_cutting and crosscutting inter across the integration, the material can be precisely divided into a single sheet-like products, and then use the sucker to accurately locate and move the material to the packaging film, laminated, heat sealing, punching, the final output Packaging complete product, to achieve the integration of the product line packaging.",
       features : [
         "High dosing accuracy",
         "quick-dissolving",
