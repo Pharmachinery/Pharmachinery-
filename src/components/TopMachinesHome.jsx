@@ -82,9 +82,9 @@ const TopMachinesHome = () => {
         </HashLink>
       </div>
     );
+    
   }
-
-  return null;
+   return null;
 })}
     </section>
   );
