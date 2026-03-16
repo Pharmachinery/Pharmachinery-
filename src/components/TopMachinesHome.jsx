@@ -83,6 +83,7 @@ const TopMachinesHome = () => {
             </div>
           );
         }
+        return null
       })}
     </section>
   );
