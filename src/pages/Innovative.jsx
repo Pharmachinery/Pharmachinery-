@@ -9,7 +9,7 @@ import { bov1, odf6} from '../assets';
 import { licaps  } from '../assets';
 import hpl from "../assets/hpl.jpg";
 import { v4 as uuidv4 } from 'uuid';
-const Innovative = () => {
+const Innovative = () => {s
   const MachinesData = [
     
     {
