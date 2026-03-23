@@ -35,8 +35,7 @@ const ServicesHome = () => {
           to='/projects'
           img={project2026}
           title="Projects"
-          description="Lorem ipsum dolor sit amet consectetur. Diam id bibendum et imperdiet
-          bibendum ipsum"
+          
         />
       </div>
     </div>
