@@ -85,10 +85,10 @@ export default function ODFMachinesPage() {
       <div className="flex flex-col lg:flex-row gap-10 items-start">
       <div className="w-full lg:w-1/2 ">
       <div className="grid grid-cols-2 gap-4 mb-6">
-  <img src={odf7} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
-  <img src={odf8} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
-  <img src={odf9} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
-  <img src={odf10} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf7} className="rounded-2xl w-full h-28 sm:h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf8} className="rounded-2xl w-full h-28 sm:h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf9} className="rounded-2xl w-full h-28 sm:h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf10} className="rounded-2xl w-full h-28 sm:h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
 </div>
   <div className="bg-white shadow-lg rounded-2xl p-8 border border-red-400 mt-10">
     
@@ -125,10 +125,10 @@ export default function ODFMachinesPage() {
 
   </div>
    <div className="grid grid-cols-2 gap-4 mb-6">
-  <img src={odf11} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
-  <img src={odf13} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400"/>
-  <img src={odf12} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
-  <img src={odf15} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf11} className="rounded-2xl w-full h-28 sm:h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf13} className="rounded-2xl w-full h-28 sm:h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400"/>
+  <img src={odf12} className="rounded-2xl w-full h-28 sm:h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf15} className="rounded-2xl w-full h-28 sm:h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
 </div>
 </div>
       <div className="w-full md:w-1/2">
