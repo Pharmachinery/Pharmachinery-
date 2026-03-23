@@ -67,7 +67,7 @@ export default function ODFMachinesPage() {
         <title>Pharmachinery Machines</title>
         <meta name="description" content="Pharmachinery group provides integrated pharmaceutical and engineering solutions in Egypt and MENA region. Pharmachinery is your premier pharmaceutical machinery and Cleanroom solutions provider." />
       </Helmet>
-   <div className="relative w-full h-[180px] sm:h-[220px] md:h-[300px] overflow-hidden">
+   <div className="relative w-full h-[120px] sm:h-[180px] md:h-[300px] overflow-hidden">
   <video
     className="w-full h-full object-cover"
     autoPlay
