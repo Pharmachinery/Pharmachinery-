@@ -28,7 +28,7 @@ const Home = () => {
       <ServicesHome />
       <ClientsHome />
       <TopMachinesHome />
-      <PartnersHome />
+      {/* <PartnersHome /> */}
       <Testimonials />
       <CeoMessage bg="#f5f5f5" />
       <ContactHome /> 
