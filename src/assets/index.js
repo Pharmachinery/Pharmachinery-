@@ -45,6 +45,7 @@ import pharmaconex43 from "../assets/pharmaconex43.jpg";
 import pharmaconex44 from "../assets/pharmaconex44.jpg";
 import pharmaconex45 from "../assets/pharmaconex45.jpg";
 import pharmaconex46 from "../assets/pharmaconex46.jpg";
+import Linelink3 from "../assets/Linelink3.jpg";
 import licaps from "../assets/Licaps.png";
 import cphi1 from "../assets/cphi1.jpg";
 import cphi2 from "../assets/cphi2.png";
@@ -147,5 +148,6 @@ export {
   bov2,
   bov3,
   project2026,
+  Linelink3,
   
 };

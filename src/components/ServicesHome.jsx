@@ -23,13 +23,13 @@ const ServicesHome = () => {
           to='/odf'
           img={odf5}
           title="ODF Technology"
-          description="Pharmachinery provides key services to align with effective GMP framework and pharmaceutical project management."
+          
         />
         <ServiceCard
           to='/services'
           img={service2}
           title="Services"
-          description="A. Fesability study , B. Cost estimation , ..."
+         
         />
         <ServiceCard
           to='/projects'

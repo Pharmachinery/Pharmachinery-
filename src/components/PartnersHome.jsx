@@ -1,26 +1,12 @@
 import React from 'react';
 import jrpacking from '../assets/jrpacking.png';
 import Aligned from '../assets/Aligned.png';
-import linelink2 from '../assets/LineLink2.jpg';
-
-
-
-
+import Linelink3 from '../assets/Linelink3.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation } from "swiper/core";
 import 'swiper/css';
-
-
-
-
 // Import Swiper React components
-
-
-
-
-
 // Import Swiper styles
-
 const PartnersHome = () => {
   SwiperCore.use([ Navigation ]);
 
@@ -68,7 +54,7 @@ const PartnersHome = () => {
                 
                 <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[250px]' src={jrpacking} alt="inotek" /></div></SwiperSlide>
                 <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img className='h-[100px] w-[250px]' src={Aligned} alt="inotek" /></div></SwiperSlide>
-                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[250px]' src={linelink2} alt="inotek" /></div></SwiperSlide>
+                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[250px]' src={Linelink3} alt="inotek" /></div></SwiperSlide>
                 </Swiper>
          </div>
       </div>
