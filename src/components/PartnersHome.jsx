@@ -1,7 +1,7 @@
 import React from 'react';
 import jrpacking from '../assets/jrpacking.png';
 import Aligned from '../assets/Aligned.png';
-import linelink from '../assets/linsen-group.webp';
+import linelink2 from '../assets/LineLink2.jpg';
 
 
 
@@ -68,7 +68,7 @@ const PartnersHome = () => {
                 
                 <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[250px]' src={jrpacking} alt="inotek" /></div></SwiperSlide>
                 <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img className='h-[100px] w-[250px]' src={Aligned} alt="inotek" /></div></SwiperSlide>
-                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[250px]' src={linelink} alt="inotek" /></div></SwiperSlide>
+                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[250px]' src={linelink2} alt="inotek" /></div></SwiperSlide>
                 </Swiper>
          </div>
       </div>
