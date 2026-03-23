@@ -67,15 +67,17 @@ export default function ODFMachinesPage() {
         <title>Pharmachinery Machines</title>
         <meta name="description" content="Pharmachinery group provides integrated pharmaceutical and engineering solutions in Egypt and MENA region. Pharmachinery is your premier pharmaceutical machinery and Cleanroom solutions provider." />
       </Helmet>
-      <video
-  className="w-full h-[300px] object-cover"
-  autoPlay
-  loop
-  muted
-  playsInline
->
-  <source src="/banner-video.mp4" type="video/mp4" />
-</video>
+   <div className="relative w-full h-[180px] sm:h-[220px] md:h-[300px] overflow-hidden">
+  <video
+    className="w-full h-full object-cover"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="/banner-video.mp4" type="video/mp4" />
+  </video>
+</div>
     <div className="min-h-screen bg-[#f8f9fa] py-10 px-6 md:px-20">
       <h1 className="text-3xl md:text-4xl font-bold text-center text-[#b30000] mb-12">
         Advanced Machinery for Fast-Dissolving Oral Films (ODF)
