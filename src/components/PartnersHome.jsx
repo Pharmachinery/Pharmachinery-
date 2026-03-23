@@ -66,9 +66,9 @@ const PartnersHome = () => {
                   className='flex items-center justify-center'
                 >
                 
-                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[210px]' src={jrpacking} alt="inotek" /></div></SwiperSlide>
-                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img className='h-[100px] w-[210px]' src={Aligned} alt="inotek" /></div></SwiperSlide>
-                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[210px]' src={linelink} alt="inotek" /></div></SwiperSlide>
+                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[250px]' src={jrpacking} alt="inotek" /></div></SwiperSlide>
+                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img className='h-[100px] w-[250px]' src={Aligned} alt="inotek" /></div></SwiperSlide>
+                <SwiperSlide><div className='lg:h-[200px] lg:flex lg:items-center lg:justify-center'><img  className='h-[100px] w-[250px]' src={linelink} alt="inotek" /></div></SwiperSlide>
                 </Swiper>
          </div>
       </div>
