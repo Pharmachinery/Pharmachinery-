@@ -2,7 +2,14 @@ import React from "react";
 import innovative from '../assets/innovative.png';
 import PageHead from '../components/PageHead';
 import { Helmet } from 'react-helmet-async';
-
+import odf7 from "../assets/odf7.jpg";
+import odf8 from "../assets/odf8.png";
+import odf9 from "../assets/odf9.png";
+import odf10 from "../assets/odf10.jpg";
+import odf11 from "../assets/odf11.jpg";
+import odf12 from "../assets/odf12.jpg";
+import odf13 from "../assets/odf13.jpg";
+import  odf15  from "../assets/odf15.jpg";
 
 const machines = [
   {
@@ -60,12 +67,73 @@ export default function ODFMachinesPage() {
         <title>Pharmachinery Machines</title>
         <meta name="description" content="Pharmachinery group provides integrated pharmaceutical and engineering solutions in Egypt and MENA region. Pharmachinery is your premier pharmaceutical machinery and Cleanroom solutions provider." />
       </Helmet>
-      <PageHead img={innovative} />
+      <video
+  className="w-full h-[300px] object-cover"
+  autoPlay
+  loop
+  muted
+  playsInline
+>
+  <source src="/banner-video.mp4" type="video/mp4" />
+</video>
     <div className="min-h-screen bg-[#f8f9fa] py-10 px-6 md:px-20">
       <h1 className="text-3xl md:text-4xl font-bold text-center text-[#b30000] mb-12">
         Advanced Machinery for Fast-Dissolving Oral Films (ODF)
       </h1>
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="flex flex-col lg:flex-row gap-10 items-start">
+      <div className="w-full lg:w-1/2 ">
+      <div className="grid grid-cols-2 gap-4 mb-6">
+  <img src={odf7} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf8} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf9} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf10} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+</div>
+  <div className="bg-white shadow-lg rounded-2xl p-8 border border-red-400 mt-10">
+    
+    <h2 className="text-3xl font-bold mb-6 text-[#b30000]">
+      ODF Project Overview
+    </h2>
+
+    <p className="text-gray-700 leading-8 mb-6">
+      A successful ODF project requires collaboration between formulation
+      scientists, manufacturing engineers, regulatory specialists, and sales teams.
+      By ensuring thorough support at each stage, products can reach the market
+      efficiently while maintaining quality and compliance.
+    </p>
+
+    <ul className="list-disc pl-6 text-gray-700 space-y-3 leading-8 mb-6">
+      <li>Concept Development</li>
+      <li>Technical Development</li>
+      <li>Regulatory Compliance</li>
+      <li>Service after sales support</li>
+      <li>Production</li>
+      <li>Training</li>
+      <li>Know-How Support</li>
+    </ul>
+
+    <p className="text-gray-700 leading-8 mb-6">
+      Orally disintegrating films (ODFs) offer a significant opportunity for
+      incremental turnover and margin improvements in the pharmaceutical industry.
+    </p>
+
+    <p className="text-gray-700 leading-8">
+      Companies that successfully transition high-value branded products to ODFs
+      can achieve strong revenue growth within 2–5 years.
+    </p>
+
+  </div>
+   <div className="grid grid-cols-2 gap-4 mb-6">
+  <img src={odf11} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf13} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400"/>
+  <img src={odf12} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+  <img src={odf15} className="rounded-2xl w-full h-40 object-cover border-2 border-red-200 shadow-md transition duration-300 hover:scale-105 hover:border-red-400" />
+</div>
+</div>
+      <div className="w-full md:w-1/2">
+
+  <div className="border-2 border-red-300 rounded-2xl p-6">
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {machines.map((machine, idx) => (
           <div
             key={idx}
@@ -96,8 +164,9 @@ export default function ODFMachinesPage() {
         ))}
       </div>
     </div>
-    
-      
+    </div>
+    </div>
+  </div> 
     </>
   );
 }

@@ -1,11 +1,9 @@
 import React from 'react';
 import PageHead from '../components/PageHead';
 import contact from '../assets/contact.png';
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
 import { Helmet } from 'react-helmet-async';
 import ContactForm from '../components/ContactForm';
 import GoogleMap from '../components/GoogleMap';

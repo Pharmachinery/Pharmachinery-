@@ -58,6 +58,15 @@ import odf3 from "../assets/odf3.png";
 import odf4 from "../assets/odf4.png";
 import odf5 from "../assets/odf5.png";
 import odf6 from "../assets/odf6.jpeg";
+import odf7 from "../assets/odf7.jpg";
+import odf8 from "../assets/odf8.png";
+import odf9 from "../assets/odf9.png";
+import odf10 from "../assets/odf10.jpg";
+import odf11 from "../assets/odf11.jpg";
+import odf12 from "../assets/odf12.jpg";
+import odf13 from "../assets/odf13.jpg";
+import odf14 from "../assets/odf14.jpg";
+import odf15 from "../assets/odf15.jpg";
 import licaps1 from "../assets/licaps1.png";
 import bov1 from "../assets/bov1.png";
 import bov2 from "../assets/bov2.png";
@@ -123,6 +132,15 @@ export {
   odf4,
   odf5,
   odf6,
+  odf7,
+  odf8,
+  odf9,
+  odf10,
+  odf11,
+  odf12,
+  odf13,
+  odf14,
+  odf15,
   licaps1,
   licaps,
   bov1,

@@ -25,9 +25,6 @@ import farouk from '../assets/FAROUK.png';
 import globalnapi from '../assets/GLOBAL NAPI.png';
 import lifesaver from '../assets/LIFE SAVER.png';
 import organicpharma from '../assets/ORGANIC.png';
-
-
-
 import { Helmet } from 'react-helmet-async';
 import { v4 as uuidv4 } from 'uuid';
 const Projects = () => {
@@ -36,175 +33,175 @@ const Projects = () => {
     id:uuidv4(),
     title:'Alrazi Pharmaceutical industries KSA',
     reverse:true,
-    workDone:"ODF system",
+    description:"ODF system",
     image:alrazi
     },
     {
     id:uuidv4(),
     title:'Saudi phrarmaceutical industries',
     reverse:false,
-    workDone:"Solid Line",
+   description:"Solid Line",
     image:spi
     },
     {
     id:uuidv4(),
     title:'Doctors Pharma',
     reverse:true,
-    workDone:"Clean Room Systems",
+    description:"Clean Room Systems",
     image:doctorspharma
     },
     {
     id:uuidv4(),
     title:'Dox Pharma KSA',
     reverse:false,
-    workDone:"Clean Room Systems",
+    description:"Clean Room Systems",
     image:dox
     },
     {
     id:uuidv4(),
     title:'EGPI',
     reverse:true,
-    workDone:"Clean rooms systems, ODF Line, Liquid line",
+    description:"Clean rooms systems, ODF Line, Liquid line",
     image:egpi
     },
     {
     id:uuidv4(),
     title:'Farouk systems',
     reverse:false,
-    workDone:"Aerosol filling Line",
+    description:"Aerosol filling Line",
     image:farouk
     },
     {
     id:uuidv4(),
     title:'Global Napi',
     reverse:true,
-    workDone:"ODF Line",
+    description:"ODF Line",
     image:globalnapi
     },
     {
     id:uuidv4(),
     title:'Life Saver',
     reverse:false,
-    workDone:"ODF line, Unidose machine",
+    description:"ODF line, Unidose machine",
     image:lifesaver
     },
     {
     id:uuidv4(),
     title:'Organic pharma',
     reverse:true,
-    workDone:"ODF line, Soft Gelatin Line, Tablet press Machine",
+    description:"ODF line, Soft Gelatin Line, Tablet press Machine",
     image:organicpharma
     },
     {
     id:uuidv4(),
     title:'Saudi phrarmaceutical industries',
     reverse:false,
-    workDone:"Solid Line",
+    description:"Solid Line",
     image:spi
     },
     {
     id:uuidv4(),
     title:'Karman Pharmaceutical Industries',
     reverse:true,
-    workDone:"General Consultation,Clean room system,Tablet press machine,Sachet filling machine,Eyedrop machine,MDI Machine,Licaps Machine,Complete automatic counting line,Water system",
+    description:"General Consultation,Clean room system,Tablet press machine,Sachet filling machine,Eyedrop machine,MDI Machine,Licaps Machine,Complete automatic counting line,Water system",
     image:kpi
     },
     {
     id:uuidv4(),
     title:'Med Care',
     reverse:false,
-    workDone:"General Consultation,Clean room system,Tablet press machine,Sachet filling machine,Eyedrop machine,MDI Machine,Licaps Machine,Complete automatic counting line,Water system",
+    description:"General Consultation,Clean room system,Tablet press machine,Sachet filling machine,Eyedrop machine,MDI Machine,Licaps Machine,Complete automatic counting line,Water system",
     image:medcare
     },
     {
     id:uuidv4(),
     title:'Eipico',
     reverse:true,
-    workDone:"Clean room system",
+    description:"Clean room system",
     image:eipico
     },
     {
     id:uuidv4(),
     title:'Global Pharma',
     reverse:false,
-    workDone:"Clean room system",
+    description:"Clean room system",
     image:globalpharma
     },
     {
     id:uuidv4(),
     title:'Pharco',
     reverse:true,
-    workDone:"Clean room system",
+    description:"Clean room system",
     image:pharco
     },
     {
     id:uuidv4(),
     title:'Macro',
     reverse:false,
-    workDone:"Cartooning machine",
+    description:"Cartooning machine",
     image:macro
     },
     {
     id:uuidv4(),
     title:'Rafada 2Rs',
     reverse:true,
-    workDone:"General Consultation,Clean room system,ODF production line,Semisolid Line,BOV machine,Tube filling machine,Liquid Line,Unidose machine",
+    description:"General Consultation,Clean room system,ODF production line,Semisolid Line,BOV machine,Tube filling machine,Liquid Line,Unidose machine",
     image:rafada
     },
     {
     id:uuidv4(),
     title:'Hikma Egypt',
     reverse:false,
-    workDone:"Vial washining machine",
+    description:"Vial washining machine",
     image:hikma
     },
     {
     id:uuidv4(),
     title:'Saco Medical, Saudi Arabia',
     reverse:true,
-    workDone:"General Consulation,ODF Line,Tablet Press,Sachet machine,Unidose,Blister machine,Licaps,Double Alu Packing machine,Candy line,Counting line",
+    description:"General Consulation,ODF Line,Tablet Press,Sachet machine,Unidose,Blister machine,Licaps,Double Alu Packing machine,Candy line,Counting line",
     image:saco
     },
     {
     id:uuidv4(),
     title:'Sabaa International Pharma',
     reverse:false,
-    workDone:"General Consulation",
+    description:"General Consulation",
     image:sabaa
     },
     {
     id:uuidv4(),
     title:'Alexandria Pharmacueticals',
     reverse:true,
-    workDone:"ODF Line",
+   description:"ODF Line",
     image:alexandria
     },
     {
     id:uuidv4(),
     title:'United Biomed',
     reverse:false,
-    workDone:"Liquid Line,Semisolid Line,Tube Filling Machine,Inspection Machine",
+    description:"Liquid Line,Semisolid Line,Tube Filling Machine,Inspection Machine",
     image:ubm
     },
     {
     id:uuidv4(),
     title:'Beta Pharma',
     reverse:true,
-    workDone:"Cleanroom System",
+    description:"Cleanroom System",
     image:beta
     },
     {
     id:uuidv4(),
     title:"Pharma Pack",
     reverse:false,
-    workDone:"General Consultation,Cleanroom System,ODF Line,Liquid Line,Semisolid System,Tube Filling,Water System",
+    description:"General Consultation,Cleanroom System,ODF Line,Liquid Line,Semisolid System,Tube Filling,Water System",
     image:pharmapack
     },
   ]
   return (
     <div className="projects">
         <Helmet>
-          <title>Pharmachinery Projects</title>
+          <title>Pharmachinery Project</title>
           <meta name="description" content="Pharmachinery group provides integrated pharmaceutical and engineering solutions in Egypt and MENA region. Pharmachinery is your premier pharmaceutical machinery and Cleanroom solutions provider." />
         </Helmet>
       <PageHead img={projectsBannerDesktop} />
@@ -212,9 +209,16 @@ const Projects = () => {
             <p className='text-red-600 font-bold py-1'>Our Projects</p>
             <h1 className='text-2xl	font-bold dark py-1'>we are delivering only exceptional high quality projects</h1>
       </div>
-      {projectsList.map((project) => (
-              <ProjectSection key={project.id} reverse={project.reverse} img={project.image} title={project.title} description={project.workDone} />
-      ))}
+     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 px-4">
+  {projectsList.map((project) => (
+    <ProjectSection
+      key={project.id}
+      img={project.image}
+      title={project.title}
+      description={project.description}
+    />
+  ))}
+</div>
     
     </div>
     

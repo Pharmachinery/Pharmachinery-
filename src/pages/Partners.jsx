@@ -5,7 +5,7 @@ import PageHead from '../components/PageHead';
 import partnersImg from '../assets/partners.png';
 import Partner from '../components/Partner';
 import Aligned from '../assets/Aligned.png';
-import LineLink from '../assets/linsen-group.webp';
+import LineLink2 from '../assets/LineLink2.jpg';
 import JrPacking from '../assets/jrpacking.png';
 import { Helmet } from 'react-helmet-async';
 import { v4 as uuidv4 } from 'uuid';
@@ -22,7 +22,7 @@ const Partners = () => {
     },
     {
       title: 'Line link',
-      img: LineLink,
+      img: LineLink2,
       description:
         'Line-Link is a global leader in cleanroom engineering, with over 20 years of experience and 12 manufacturing sites worldwide. We provide turnkey ISO Class 5–8 cleanroom solutions for the pharmaceutical, biotech, semiconductor, healthcare, cosmetics, and food industries. All key components—cleanroom panels, HEPA filters, laminar flow units, air showers, lab furniture, and purification equipment—are produced in-house, ensuring high quality, fast delivery, and cost efficiency.',
       link: 'https://www.linelink-linsen.com/',
