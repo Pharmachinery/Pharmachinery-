@@ -4,7 +4,8 @@ import SuccessForm from './SuccessForm';
 import ErrorForm from './ErrorForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
-
+import { addDoc, collection, serverTimestamp } from "firebase/firestore";
+import { db } from "../firebase"
 const ContactForm = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false);
@@ -28,7 +29,7 @@ const ContactForm = () => {
 
   const validateForm = () => {
     const nameRegex = /^[A-Za-z][A-Za-z\s]{0,38}[A-Za-z]$/;
-    const messageRegex = /^[A-Za-z][A-Za-z\s]{0,398}[A-Za-z]$/;
+    const messageRegex = /^[A-Za-z]{0,398}$/;
     const phoneRegex=    /^[1-100][A-Za-z\s]{0,398}[A-Za-z]$/;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -63,6 +64,7 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
     setLoading(true);
 
     if (validateForm()) {
@@ -75,10 +77,20 @@ for (let pair of data.entries()) {
         .then(
           (result) => {
             if (result.text === 'OK') {
+                // ✅ حفظ الرسالة في Firebase
+    addDoc(collection(db, "messages"), {
+      user_name: data.get("user_name") || "",
+      user_email: data.get("user_email") || "",
+      user_phone: data.get("user_phone") || "",
+      message: data.get("message") || "",
+      status: "new",
+      createdAt: serverTimestamp(),
+    });
               clearForm();
               setSuccess(true);
               setError({ status: false, message: '' });
             }
+            
           },
           (error) => {
             setError({ status: true, message: error.text });
