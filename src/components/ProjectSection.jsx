@@ -1,15 +1,15 @@
 import React from "react";
 
-const ProjectSection = ({ img, title, description }) => {
+const ProjectSection = ({ img, title, description, size }) => {
   return (
     <div className="border-2 border-red-400 rounded-2xl p-6 shadow-sm hover:shadow-lg transition bg-white text-center">
 
       {/* اللوجو */}
-   <div className="mb-4 flex justify-center items-center h-35 overflow-hidden">
+    <div className=" logo-card-pro inline-block p-6 rounded-xl border border-red-200">
   <img
     src={img}
     alt={title}
-    className="h-32 object-contain scale-150"
+    className={`${size || "h-32"} object-contain`}
   />
 </div>
 

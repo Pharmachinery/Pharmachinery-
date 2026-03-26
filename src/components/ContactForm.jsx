@@ -66,6 +66,10 @@ const ContactForm = () => {
     setLoading(true);
 
     if (validateForm()) {
+      const data = new FormData(form.current);
+for (let pair of data.entries()) {
+  console.log(pair[0], pair[1]);
+}
       emailjs
         .sendForm('service_of5m7vd', 'template_d0cmuns', form.current, 'SPBB_Io8cebfk11Ab')
         .then(
@@ -114,7 +118,7 @@ const ContactForm = () => {
               <div className='form-group mb-6'>
              <input
              required
-             type='number'
+             type='tel'
               name='user_phone'
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}

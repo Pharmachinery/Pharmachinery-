@@ -26,6 +26,21 @@ import globalnapi from '../assets/GLOBAL NAPI.png';
 import lifesaver from '../assets/LIFE SAVER.png';
 import organicpharma from '../assets/ORGANIC.png';
 import { Helmet } from 'react-helmet-async';
+import alandalus from "../assets/alandalus.jpg";
+import ameomed from "../assets/ameomed.png";
+import Egyptioncompany from "../assets/Egyptioncompany.jpg";
+import granty from "../assets/granty.png";
+import gsp from "../assets/gsp.png";
+import hakeem from "../assets/hakeem.png";
+import melano from "../assets/melano.png";
+import multicare from "../assets/multicare.jpg";
+import pharmaed from "../assets/pharmaed.jpg";
+import pharmed from "../assets/pharmed.png";
+import pharmazad from "../assets/pharmazad.jpg";
+import curamed from "../assets/curamed.png";
+import Bpharma from "../assets/B PHARMA.png";
+import Bvp from "../assets/BVP.png";
+import nerhadou from "../assets/nerhadou.jpg";
 import { v4 as uuidv4 } from 'uuid';
 const Projects = () => {
   const projectsList = [
@@ -34,7 +49,7 @@ const Projects = () => {
     title:'Alrazi Pharmaceutical industries KSA',
     reverse:true,
     description:"ODF system",
-    image:alrazi
+    image:alrazi,
     },
     {
     id:uuidv4(),
@@ -42,6 +57,118 @@ const Projects = () => {
     reverse:false,
    description:"Solid Line",
     image:spi
+    },
+     {
+    id:uuidv4(),
+    title:'Andalus Pharmaceutical Industries',
+    reverse:true,
+    description:"Clean Rooms",
+    image:alandalus,
+    },
+      {
+    id:uuidv4(),
+    title:'Amcomed',
+    reverse:true,
+    description:"Blister Machine",
+    image:ameomed,
+    },
+   {
+    id:uuidv4(),
+    title:'ECC Cosmotics',
+    reverse:true,
+    description:"BOV machine , Aerosol Line",
+    image:Egyptioncompany,
+    },
+    {
+    id:uuidv4(),
+    title:'ECC Neutration Hub',
+    reverse:true,
+    description:"ODF Line , Solid Line",
+    image:Egyptioncompany,
+    },
+    {
+    id:uuidv4(),
+    title:'Granty Food',
+    reverse:true,
+    description:"Blister Machine",
+    image:granty,
+    },
+    {
+    id:uuidv4(),
+    title:'Glabsy Pharma',
+    reverse:true,
+    description:"Capsule Filling Machine",
+    image:gsp,
+    },
+    {
+    id:uuidv4(),
+    title:'Hakeem Pharma, Saudi Arabia',
+    reverse:true,
+    description:"Blister Machine , BOV machine , Water Station",
+    image:hakeem,
+    },
+    {
+    id:uuidv4(),
+    title:'Melano Pharma',
+    reverse:true,
+    description:"ODF Line",
+    image:melano,
+    },
+     {
+    id:uuidv4(),
+    title:'Nerhaduo Pharmaceutical Industries',
+    reverse:true,
+    description:"ODF Line , Cartooning Machine",
+    image:nerhadou,
+    },
+      {
+    id:uuidv4(),
+    title:'Advanced Pharmaceutical Industries, Saudi Arabia',
+    reverse:true,
+    description:"Clean Rooms",
+    image:Bpharma,
+    },
+     {
+    id:uuidv4(),
+    title:'Curamed',
+    reverse:true,
+    description:"Clean Room , Unidose , Water Station",
+    image:curamed,
+    },
+    {
+    id:uuidv4(),
+    title:'Biovax, Saudi Arabia',
+    reverse:true,
+    description:"Clean Rooms",
+    image:Bvp,
+    },
+    {
+    id:uuidv4(),
+    title:'Multicare',
+    reverse:true,
+    description:"ODF Line , Capsule filling machine",
+    image:multicare,
+    },
+    {
+    id:uuidv4(),
+    title:'ED Pharma',
+    reverse:true,
+    description:"Clean Rooms",
+    image:pharmaed,
+    },
+    {
+    id:uuidv4(),
+    title:'Pharmed health care',
+    reverse:true,
+    description:"Blister Machine",
+    image:pharmed,
+    },
+    {
+    id:uuidv4(),
+    title:'Pharmazad',
+    reverse:true,
+    description:"ODF Line , Counting Line",
+    image:pharmazad,
     },
     {
     id:uuidv4(),
@@ -61,14 +188,14 @@ const Projects = () => {
     id:uuidv4(),
     title:'EGPI',
     reverse:true,
-    description:"Clean rooms systems, ODF Line, Liquid line",
+    description:"ODF line , Liquid Line , Counting Line , Tube effervescent , Filling line",
     image:egpi
     },
     {
     id:uuidv4(),
     title:'Farouk systems',
     reverse:false,
-    description:"Aerosol filling Line",
+    description:"Airless Filling Machine",
     image:farouk
     },
     {
@@ -82,23 +209,17 @@ const Projects = () => {
     id:uuidv4(),
     title:'Life Saver',
     reverse:false,
-    description:"ODF line, Unidose machine",
+    description:"ODF Line , Tablet Press , Blister Machine",
     image:lifesaver
     },
     {
     id:uuidv4(),
     title:'Organic pharma',
     reverse:true,
-    description:"ODF line, Soft Gelatin Line, Tablet press Machine",
+    description:"ODF Line , Tablet Press , Soft gelatin Line",
     image:organicpharma
     },
-    {
-    id:uuidv4(),
-    title:'Saudi phrarmaceutical industries',
-    reverse:false,
-    description:"Solid Line",
-    image:spi
-    },
+   
     {
     id:uuidv4(),
     title:'Karman Pharmaceutical Industries',
@@ -159,7 +280,7 @@ const Projects = () => {
     id:uuidv4(),
     title:'Saco Medical, Saudi Arabia',
     reverse:true,
-    description:"General Consulation,ODF Line,Tablet Press,Sachet machine,Unidose,Blister machine,Licaps,Double Alu Packing machine,Candy line,Counting line",
+    description:"ODF Line , Licaps Line , Solid Line",
     image:saco
     },
     {
@@ -180,7 +301,7 @@ const Projects = () => {
     id:uuidv4(),
     title:'United Biomed',
     reverse:false,
-    description:"Liquid Line,Semisolid Line,Tube Filling Machine,Inspection Machine",
+    description:"Semisolid line , Liquid Line , Turnkey project , Clean rooms",
     image:ubm
     },
     {
@@ -216,6 +337,7 @@ const Projects = () => {
       img={project.image}
       title={project.title}
       description={project.description}
+      size={project.size}
     />
   ))}
 </div>

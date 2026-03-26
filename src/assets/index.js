@@ -46,6 +46,21 @@ import pharmaconex44 from "../assets/pharmaconex44.jpg";
 import pharmaconex45 from "../assets/pharmaconex45.jpg";
 import pharmaconex46 from "../assets/pharmaconex46.jpg";
 import Linelink3 from "../assets/Linelink3.jpg";
+import alandalus from "../assets/alandalus.jpg";
+import ameomed from "../assets/ameomed.png";
+import Egyptioncompany from "../assets/Egyptioncompany.jpg";
+import granty from "../assets/granty.png";
+import Bpharma from "../assets/B PHARMA.png";
+import gsp from "../assets/gsp.png";
+import hakeem from "../assets/hakeem.png";
+import melano from "../assets/melano.png";
+import multicare from "../assets/multicare.jpg";
+import pharmaed from "../assets/pharmaed.jpg";
+import pharmed from "../assets/pharmed.png";
+import pharmazad from "../assets/pharmazad.jpg";
+import BVP from "../assets/BVP.png";
+import curamed from "../assets/curamed.png";
+import nerhadou from "../assets/nerhadou.jpg";
 import licaps from "../assets/Licaps.png";
 import cphi1 from "../assets/cphi1.jpg";
 import cphi2 from "../assets/cphi2.png";
@@ -149,5 +164,20 @@ export {
   bov3,
   project2026,
   Linelink3,
+  alandalus,
+  ameomed,
+  Egyptioncompany,
+  granty,
+  gsp,
+  hakeem,
+  melano,
+  multicare,
+  pharmaed,
+  pharmazad,
+  pharmed,
+  BVP,
+  nerhadou,
+  curamed,
+  Bpharma,
   
 };
